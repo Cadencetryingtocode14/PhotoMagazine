@@ -139,24 +139,32 @@ footer {
     section {
         padding: 50px 20px;
     }
-   /* for dark mode */
-.dark-mode{
-    background-color:#111;
-    color:white;
-    .dark-mode header{
-    background:#1d1d1d;
+  /* for dark mode */
+
+.dark-mode {
+    background-color: #111;
+    color: white;
 }
-.dark-mode section{
-    background:#222;
+
+.dark-mode header {
+    background-color: #1d1d1d;
+    color: white;
 }
-.dark-mode footer{
-    background:#1d1d1d;
+
+.dark-mode section {
+    background-color: #222;
+    color: white;
 }
-.dark-mode a{
-    color:#f5b8da;
-    .dark-mode .gallery-item{
-    background:#2a2a2a;
+
+.dark-mode footer {
+    background-color: #1d1d1d;
+    color: white;
 }
+
+.dark-mode a {
+    color: #f5b8da;
 }
-}
+
+.dark-mode .gallery-item {
+    background-color: #2a2a2a;
 }
